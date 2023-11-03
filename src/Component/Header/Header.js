@@ -1,27 +1,20 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import { NavLink } from "react-router-dom";
-import "./Header.css";
-import Sign from "../Auth/Sign";
-import Login from "../Auth/Login";
-function Header() {
+
+const Header = () => {
   return (
-    <div className="header">
-      <div>
-        <h2>logo</h2>
-      </div>
-      <div>
-        {/* <NavLink to="/sign">sign</NavLink>
-        <NavLink to="/login">login</NavLink> */}
-      <ul className="ul">
-        <li>Home</li>
-        <li>About</li>
-        <li>Sign</li>
-        <li>login</li>
-      </ul>
-      </div>
+    <div className="flex justify-between items-center p-4 bg-gray-800 text-white font-serif">
+      <div className="text-xl font-bold">Logo</div>
+      <nav>
+        <ul className="flex space-x-4">
+          <li activeClassName="text-blue-500">Home</li>
+          <li activeClassName="text-blue-500">About</li>
+          <li activeClassName="text-blue-500">Service</li>
+          <li activeClassName="text-blue-500">Call Me</li>
+        </ul>
+      </nav>
     </div>
   );
-}
+};
 
 export default Header;
