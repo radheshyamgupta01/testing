@@ -1,6 +1,6 @@
 import React from 'react'
 import Sign from './Component/Auth/Sign'
-import Login from "./Component/Auth/Login"
+import LoginForm from './Component/Auth/Login'
 import {BrowserRouter,Router,Route, Routes}  from "react-router-dom"
 import Header from './Component/Header/Header'
 import Home from './Component/Home/Home'
@@ -29,8 +29,8 @@ function App() {
     </BrowserRouter> */}
 
   
-  <Sign></Sign>
-  <Login></Login>
+
+<LoginForm></LoginForm>
   
  
     </div>

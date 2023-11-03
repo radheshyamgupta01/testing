@@ -5,7 +5,7 @@ function Sign() {
     <div className="sign-in">
       <div></div>
       <form>
-        <label>user name</label>
+        <label className="font-serif  text-red-600">user name</label>
         <input type="text"></input>
         <label>Email</label>
         <input type="email"></input>
