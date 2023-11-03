@@ -1,0 +1,8 @@
+.sign-in{
+    height: 250px;
+    background-color: rgb(170, 107, 24);
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
